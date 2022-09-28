@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: #000;
+  width: 350px;
+  height: 500px;
+  border-radius: 50px;
+  box-shadow: 11px 12px 37px 7px #000000;
+}
+
+.parte-de-cima {
+  width: 100%;
+  height: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: larger;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.parte-contador {
+  color: #fff;
+  width: 100%;
+  height: 15%;
+  display: flex;
+  font-size: large;
+  font-weight: bold;
+}
+
+.palavra {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.palavras {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.palavras-contador {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.caractere {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.caracteres {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.caracteres-contador {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.parte-texto {
+  width: 100%;
+  height: 55%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  width: 100%;
+  height: 15%;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
